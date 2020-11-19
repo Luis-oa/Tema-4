@@ -17,7 +17,7 @@ t_final = 10	# tiempo en segundos
 t = np.linspace(0, t_final, T)
 w_o = 2*np.pi
 
-# Inicialización del proceso aleatorio X(t) con N realizaciones
+# Inicialización del proceso aleatorio W(t) con N realizaciones
 N = 10
 W_t = np.empty((N, len(t)))	# N funciones del tiempo x(t) con T puntos
 
